@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Machinery" table="machinery" catalog="eagriculture">
+        <id name="mid" type="java.lang.Integer">
+            <column name="mid" />
+            <generator class="identity" />
+        </id>
+        <property name="mname" type="string">
+            <column name="mname" length="100" not-null="true" />
+        </property>
+        <property name="enginehp" type="string">
+            <column name="enginehp" length="100" not-null="true" />
+        </property>
+        <property name="ratedrpm" type="string">
+            <column name="ratedrpm" length="100" not-null="true" />
+        </property>
+        <property name="gears" type="string">
+            <column name="gears" length="100" not-null="true" />
+        </property>
+        <property name="speed" type="string">
+            <column name="speed" length="100" not-null="true" />
+        </property>
+        <property name="fronttype" type="string">
+            <column name="fronttype" length="100" not-null="true" />
+        </property>
+        <property name="reartype" type="string">
+            <column name="reartype" length="100" not-null="true" />
+        </property>
+        <property name="liftcap" type="string">
+            <column name="liftcap" length="100" not-null="true" />
+        </property>
+        <property name="fuelcap" type="string">
+            <column name="fuelcap" length="100" not-null="true" />
+        </property>
+        <property name="image" type="binary">
+            <column name="image" not-null="true" />
+        </property>
+        <set name="demos" table="demo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="mid" />
+            </key>
+            <one-to-many class="com.pojo.Demo" />
+        </set>
+    </class>
+</hibernate-mapping>

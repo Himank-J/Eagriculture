@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Contact" table="contact" catalog="eagriculture">
+        <id name="cid" type="java.lang.Integer">
+            <column name="cid" />
+            <generator class="identity" />
+        </id>
+        <property name="cname" type="string">
+            <column name="cname" length="100" not-null="true" />
+        </property>
+        <property name="cemail" type="string">
+            <column name="cemail" length="100" not-null="true" />
+        </property>
+        <property name="comment" type="string">
+            <column name="comment" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Purchase" table="purchase" catalog="eagriculture">
+        <id name="purid" type="java.lang.Integer">
+            <column name="purid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="register" class="com.pojo.Register" fetch="select">
+            <column name="id" />
+        </many-to-one>
+        <many-to-one name="product" class="com.pojo.Product" fetch="select">
+            <column name="pid" />
+        </many-to-one>
+        <property name="purdate" type="date">
+            <column name="purdate" length="0" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="100" not-null="true" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" length="10" not-null="true" />
+        </property>
+        <property name="totprice" type="double">
+            <column name="totprice" precision="10" scale="0" not-null="true" />
+        </property>
+    	<property name="pquantity" type="int">
+            <column name="pquantity" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

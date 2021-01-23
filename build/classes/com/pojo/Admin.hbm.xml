@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Admin" table="admin" catalog="eagriculture">
+        <id name="aid" type="java.lang.Integer">
+            <column name="aid" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="100" not-null="true" />
+        </property>
+        <property name="apassword" type="string">
+            <column name="apassword" length="100" not-null="true" />
+        </property>
+        <property name="aname" type="string">
+            <column name="aname" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Product" table="product" catalog="eagriculture">
+        <id name="pid" type="java.lang.Integer">
+            <column name="pid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="producttype" class="com.pojo.Producttype" fetch="select">
+            <column name="type" not-null="true" />
+        </many-to-one>
+        <property name="pname" type="string">
+            <column name="pname" length="100" not-null="true" />
+        </property>
+        <property name="pdescription" type="string">
+            <column name="pdescription" not-null="true" />
+        </property>
+        <property name="price" type="int">
+            <column name="price" not-null="true" />
+        </property>
+        <property name="image" type="binary">
+            <column name="image" not-null="true" />
+        </property>
+        <property name="totquantity" type="int">
+            <column name="totquantity" not-null="true" />
+        </property>
+        <property name="totalprice" type="int">
+            <column name="totalprice" not-null="true" />
+        </property>
+        <set name="carts" table="cart" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="pid" />
+            </key>
+            <one-to-many class="com.pojo.Cart" />
+        </set>
+        <set name="purchases" table="purchase" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="pid" />
+            </key>
+            <one-to-many class="com.pojo.Purchase" />
+        </set>
+    </class>
+</hibernate-mapping>

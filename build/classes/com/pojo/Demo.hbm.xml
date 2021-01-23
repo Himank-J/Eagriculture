@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Demo" table="demo" catalog="eagriculture">
+        <id name="did" type="java.lang.Integer">
+            <column name="did" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="register" class="com.pojo.Register" fetch="select">
+            <column name="id" />
+        </many-to-one>
+        <many-to-one name="machinery" class="com.pojo.Machinery" fetch="select">
+            <column name="mid" />
+        </many-to-one>
+        <property name="demodate" type="date">
+            <column name="demodate" length="0" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="100" not-null="true" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" length="10" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

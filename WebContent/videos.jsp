@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@page import="modal.GlobalMap"%>
+<%@page import="com.pojo.Producttype"%>
+<%@page import="java.util.List"%>
+<%@page import="modal.BLManager"%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>V-FARM VIDEOS</title>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+<%@include file="css/style.css" %>
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body class="abc">
+<%
+BLManager bl=new BLManager();
+List<Producttype> list=bl.getAllProductType();
+%>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+
+<a class="navbar-brand navbar1"><img src="images/vfarmlogo.png" class="logoimg"/></a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li><a class="link-1" href="index.jsp">HOME</a></li>
+
+<li class="dropdown link-1 active">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">OUR ARTICLE <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="vfarm.jsp" class="dropdown1">WHY V-FARM</a></li>
+<li><a href="hydroponics.jsp" class="dropdown1">HYDROPONICS</a></li>
+<li><a href="aeroponics.jsp" class="dropdown1">AEROPONICS</a></li>
+<li><a href="aquaponics.jsp" class="dropdown1">AQUAPONICS</a></li>
+<li><a href="others.jsp" class="dropdown1">OTHER RELATED..</a></li>
+<li><a href="videos.jsp" class="dropdown1">V-FARM VIDEOS</a></li>
+</ul>
+</li>
+
+<li class="dropdown link-1">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">MATERIALS <span class="caret">
+</span></a>
+<ul class="dropdown-menu">
+<!-- <li><a href="" class="dropdown1">CHEMICALS</a></li> -->
+<%for(int i=0;i<1;i++){ %>
+<li><a class="link-1" href="DisplayProduct.jsp?id=<%=list.get(i).getTid() %>"><%=list.get(i).getProducttype() %></a></li>
+<%} %>
+<!--<li><a href="ledandlamps.jsp" class="dropdown1">LED GROW LIGHTS AND LAMPS</a></li> -->
+<%for(int i=1;i<2;i++){ %>
+<li><a class="link-1" href="DisplayProduct.jsp?id=<%=list.get(i).getTid() %>"><%=list.get(i).getProducttype() %></a></li>
+<%} %>
+<!--<li><a href="greenhouseplantsupport.jsp" class="dropdown1">GREENHOUSE PLANT SUPPORT</a></li> -->
+<%for(int i=2;i<3;i++){ %>
+<li><a class="link-1" href="DisplayProduct.jsp?id=<%=list.get(i).getTid() %>"><%=list.get(i).getProducttype() %></a></li>
+<%} %>
+<!--  <li><a href="coir.jsp" class="dropdown1">COIR</a></li> -->
+<%for(int i=3;i<4;i++){ %>
+<li><a class="link-1" href="DisplayProduct.jsp?id=<%=list.get(i).getTid() %>"><%=list.get(i).getProducttype() %></a></li>
+<%} %>
+</ul>
+</li>
+
+<!--<li><a class="link-1" href="machine.jsp"> MACHINERY</a></li>-->
+<%for(int i=6;i<7;i++){ %>
+<li><a href="DisplayProduct.jsp?id=<%=list.get(i).getTid() %>"><%=list.get(i).getProducttype() %></a></li>
+<%} %>
+<li><a class="link-1" href="demo1.jsp">MACHINE DEMO</a></li>
+<li><a class="link-1" href="soiltest.jsp">RENTING</a></li>
+<li><a class="link-1" href="contact.jsp"> CONTACT</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<% String nm=(String)session.getAttribute("name");
+if(nm==null)
+{
+%>
+<li><a class="link-1" href="registration.jsp"><span class="glyphicon glyphicon-user"></span> BE A MEMBER</a></li>
+<%}
+else
+{
+%>
+<li><a class="link-1" href="myaccount.jsp"><span class="glyphicon glyphicon-user"></span> MY ACCOUNT</a></li>
+<%} %>
+
+<% String name=(String)session.getAttribute("name");
+if(name==null)
+{
+%>
+<li><a class="link-1" href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+<%}
+else
+{
+%>
+<li><a class="link-1" href="Logout"><span class="glyphicon glyphicon-log-in"></span> LOGOUT</a></li>
+<%} %>
+</ul>
+</div>
+</div>
+</nav><br><br><br />
+<center><h3 class="juteheading1"><strong> OUR COLLECTION </strong></h3></center>
+<br></br>
+<center><h4 class="juteheading1"><strong> This Farm of the Future Uses No Soil and 95% Less Water</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/-_tvJtUHnmU"> 
+</iframe></center><br></br>
+<center><h4 class="juteheading1"><strong> How to make a Vertical Hydroponic System</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/TS5CbtJNr40"> 
+</iframe></center><br></br>
+<center><h4 class="juteheading1"><strong> Vertical Aeroponic Technology</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/l7EzYmO9u8M"> 
+</iframe></center><br></br>
+<center><h4 class="juteheading1"><strong> What is Aquaponics? How it Works?</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/-z1kozprw8Y"> 
+</iframe></center><br></br>
+<center><h4 class="juteheading1"><strong> Tokyos Vertical Farms - The Future of Farming | WIRED</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/pGtdoGXhjxQ"> 
+</iframe></center><br></br>
+<center><h4 class="juteheading1"><strong> The High-Tech Vertical Farmer</strong></h4></center>
+<center>
+<iframe width="650" height="350" src="https://www.youtube.com/embed/AGcYApKfHuY"> 
+</iframe></center><br></br>
+
+
+<!-- *** COPYRIGHT ***-->
+<div id="copyright">
+<div class="container-fluid copyright">
+<div class="col-md-12">
+<h4 class="pull-left copyright copyright1">Copyright © VertiFarmPortalIndia</h4>
+</div>
+</div>
+</div>
+<!-- *** COPYRIGHT END *** -->  
+
+</body>
+</html>
+
+

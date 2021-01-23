@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Cart" table="cart" catalog="eagriculture">
+        <id name="cartid" type="java.lang.Integer">
+            <column name="cartid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="register" class="com.pojo.Register" fetch="select">
+            <column name="id" />
+        </many-to-one>
+        <many-to-one name="product" class="com.pojo.Product" fetch="select">
+            <column name="pid" />
+        </many-to-one>
+        <property name="totprice" type="int">
+            <column name="totprice" not-null="true" />
+        </property>
+        <property name="cquantity" type="int">
+            <column name="cquantity" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

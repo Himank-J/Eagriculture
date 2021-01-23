@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/eagriculture</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.enable_lazy_load_no_trans">false</property>
+                
+    	<mapping resource="com/pojo/Register.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Admin.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Contact.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Demo.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Machinery.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Product.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Purchase.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Soiltest.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Producttype.hbm.xml"></mapping>
+    	<mapping resource="com/pojo/Cart.hbm.xml"></mapping>
+    </session-factory>
+</hibernate-configuration>

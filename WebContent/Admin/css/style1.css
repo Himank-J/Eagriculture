@@ -1,0 +1,1034 @@
+@CHARSET "ISO-8859-1";
+<style type="text/css">
+
+
+.contact_content3
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:18px;
+	text-align:center;
+	position:relative;
+	left:10px;
+	color:black;
+}
+.copyrights /* for sunflower */
+{
+	position:relative;
+	top:8px;
+}
+.bajraimg1
+{
+	width:275px;
+	height:283px;
+	position:relative;
+	top:-7px;
+}
+.bajrapara1
+{
+	font-size:20px;
+	position:relative;
+	top:-2px;
+}
+.bajrapara12
+{
+	font-size:20px;
+	position:relative;
+	top:-8px;
+}
+.bajralist1
+{
+	font-size:20px;
+	position:relative;
+	top:-9px;
+}
+.bajrabtn1
+{
+	position:relative;
+	left:15px;
+	top:-5px;
+}
+.bajraimg2
+{
+	width:270px; 
+	height:280px;
+}
+.bajrabtn2
+{
+	position:relative;
+	left:15px;
+	top:-13px;
+}
+.bajrabtn3
+{
+	position:relative;
+	left:15px;
+	top:10px;
+}
+.cottonheading1
+{
+	position:relative;
+	top:-13px;
+}
+.cottonheading2
+{
+	position:relative;
+	top:-28px;
+}
+.cottonheading3
+{
+	position:relative;
+	top:-38px;
+}
+.cottonheading4
+{
+	position:relative;
+	top:10px;
+}
+.cottonheading5
+{
+	position:relative;
+	top:-14px;
+}
+.cottonimg1
+{
+	width:275px;
+	height:316px;
+}
+.cottonpara1
+{
+	font-size:18px;
+	position:relative;
+	top:-20px; 
+}
+.cottonlist1
+{
+	font-size:18px;
+	position:relative;
+	top:-27px;
+}
+.cottonbtn1
+{
+	position:relative;
+	left:15px;
+	top:-30px;
+}
+.cottonimg2
+{
+	width:270px; 
+	height:320px;
+	margin-top:-15px;
+}
+.cottonpara2
+{
+	font-size:18px;
+	position:relative;
+	top:-34px;
+}
+.cottonlist2
+{
+	font-size:18px;
+	position:relative;
+	top:-41px;
+}
+.cottonbtn2
+{
+	position:relative;
+	left:15px;
+	top:-40px;
+}
+.cottonimg3
+{
+	width:270px; 
+	height:290px;
+	margin-top:-25px;
+}
+.cottonpara3
+{
+	font-size:18px;
+	margin-top:-44px;
+}
+.cottonlist3
+{
+	font-size:18px;
+	margin-top:-10px;
+}
+.cottonbtn3
+{
+	position:relative;
+	left:15px;
+}
+.cottonimg4
+{
+	width:270px; 
+	height:290px;
+}
+.cottonpara4
+{
+	font-size:18px;
+}
+.cottonbtn4
+{
+	position:relative;
+	left:15px;
+	top:-10px;
+}
+.cottonimg5
+{
+	width:270px; 
+	height:290px;
+}
+.cottonlist5
+{
+	font-size:18px;
+	margin-top:-18px;
+}
+.cottonbtn5
+{
+	position:relative;
+	left:15px;
+}
+.sunimg1
+{
+	width:275px;
+	height:327px;
+}
+.sunheading1
+{
+	position:relative;
+	top:-15px;
+}
+.sunpara1
+{
+	font-size:19px;
+	position:relative;
+	top:-22px;
+}
+.sunlist1
+{
+	font-size:19px;
+	position:relative;
+	top:-30px; 
+}
+.sunbtn1
+{
+	 position:relative;
+	 left:15px;
+	 top:-32px;
+}
+.sunimg2
+{
+	width:270px;
+	height:280px;
+	margin-top:-20px;
+}
+.sunheading2
+{
+	position:relative;
+	top:-27px;
+}
+.sunpara2
+{
+	font-size:19px;
+	position:relative;
+	top:-33px;
+}
+.sunlist2
+{
+	font-size:19px;
+	position:relative;
+	top:-40px;
+}
+.sunbtn2
+{
+	position:relative;
+	left:15px;
+	top:-10px;
+}
+.tomatoimg1
+{
+	width:275px;
+	height:301px;
+}
+.tomatopara1
+{
+	font-size:19px;
+	position:relative;
+	top:-20px; 
+}
+.tomatolist1
+{
+	font-size:19px;
+	position:relative;
+	top:-27px;
+}
+.tomatoheading1
+{
+	position:relative;
+	top:-13px;
+}
+.tomatobtn1
+{
+	position:relative;
+	left:15px;
+	top:-30px;
+}
+.tomatoimg2
+{
+	width:270px; 
+	height:290px;
+	margin-top:-15px;
+}
+.tomatoheading2
+{
+	position:relative;
+	top:-28px;
+}
+.tomatopara2
+{
+	font-size:19px;
+	position:relative;
+	top:-34px; 
+}
+.tomatobtn2
+{
+	position:relative;
+	left:15px;
+	top:20px;
+}
+.tomatoimg3
+{
+	width:270px; 
+	height:295px;
+	margin-top:35px;
+}
+.tomatoheading3
+{
+	position:relative;
+	top:20px;
+}
+.tomatopara3
+{
+	font-size:19px;
+	position:relative;
+	top:10px;
+}
+.brinjalimg2 /* for brinjal image 2 container fluid */
+{
+	position:relative;
+	top:-10px;"
+}
+.brinjalimg1
+{
+	width:275px;
+	height:260px;
+}
+.brinjalimg23 /* for brinjal image 2 and 3 */
+{
+	width:270px; 
+	height:280px;
+}
+.brinjalbtn1
+{
+	position:relative;
+	left:15px;
+	margin-top:-10px;
+}
+.brinjalbtn2
+{
+	position:relative;
+	left:15px;
+	top:-15px;"
+}
+.brinjalbtn3
+{
+	position:relative;
+	left:15px;
+	top:15px;"
+}
+.watermelonimg1
+{
+	width:275px;
+	height:260px;
+}
+.watermelonimg2
+{
+	width:270px;
+	height:280px;
+}
+.waterbtn1
+{
+	position:relative;
+	left:15px;
+	top:15px;
+}
+.waterbtn2
+{
+	position:relative;
+	left:15px;
+	top:-15px;
+}
+.wfont /* font for watermelon */
+{
+	font-size:20px;
+}
+.w2 /* position for watermelon image 2 */
+{
+	position:relative;
+	top:-10px;
+}
+.sugarheading2
+{
+	font-size:25px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:-10px;
+}
+.sugarheading1
+{
+	font-size:27px;
+	font-family:'Times New Roman', Times, serif;
+}
+.sugarpara12
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+}
+.sugarpara3
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+	position:relative;
+	top:-10px;
+}
+.sugarcaneimg1
+{
+	background-image:url(images/sugarcane1.png);
+	position:relative;
+	top:30px;
+	height:290px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.sugarcaneimg2
+{
+	height:257px;
+	width:450px;
+	position:relative;
+	top:311px;
+	left:-15px;
+	border-radius:5px;
+}
+.sugarcaneimg3
+{
+	height:500px;
+	width:450px;
+	position:relative;
+	top:311px;
+	left:-15px;
+	border-radius:5px;
+}
+.juteimage1
+{
+	background-image:url(images/jute1.png);
+	position:relative;
+	top:28px;
+	height:282px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.juteimage2
+{
+	height:300px;
+	width:450px;
+	position:relative;
+	top:300px;
+	left:-15px;
+	border-radius:5px;
+}
+.juteimage3
+{
+	height:470px;
+	width:450px;
+	position:relative;
+	top:300px;
+	left:-15px;
+	border-radius:5px;
+}
+.juteheading1
+{
+	font-size:27px; 
+	font-family:'Times New Roman', Times, serif;
+}
+.jutepara12
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+}
+.juteheading2
+{
+	font-size:26px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:-15px;
+}
+.jutepara3
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+	position:relative;
+	top:-15px;
+}
+.maizepara3
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+	position:relative;
+	top:-17px;
+}
+.maizepara12
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+}
+.maizeimage1
+{
+	background-image:url(images/maize1.png);
+	position:relative;
+	top:28px;
+	height:291px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.maizeimage2
+{
+	height:281px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.maizeimage3
+{
+	height:468px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.maizeheading1
+{
+	font-size:27px;
+	font-family:'Times New Roman', Times, serif;	
+}
+.maizeheading2
+{
+	font-size:26px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:-17px;	
+}
+.pulseimage2
+{
+	height:281px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.pulseimage1
+{
+	background-image:url(images/pulses1.png);
+	position:relative;
+	top:28px;
+	height:291px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.pulseimage3
+{
+	height:497px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.pulsepara3
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif; 
+	text-align:justify;
+	position:relative;
+	top:-18px;
+}
+.pulsepara12
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;	
+}
+.pulseheading1
+{
+	font-size:27px;
+	font-family:'Times New Roman', Times, serif;	
+}
+.pulseheading2
+{
+	font-size:26px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:-18px;	
+}
+.wheatheading1
+{
+	font-size:27px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:4px;	
+}
+.wheatheading2
+{
+	font-size:26px;
+	font-family:'Times New Roman', Times, serif;
+	position:relative;
+	top:-15px;	
+}
+.wheatimage1
+{
+	background-image:url(images/wheat1.png);
+	position:relative;
+	top:50px;
+	height:290px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.wheatimage2
+{
+	height:245px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.wheatimage3
+{
+	height:493px;
+	width:450px;
+	position:relative;
+	top:290px;
+	left:-15px;
+	border-radius:5px;
+}
+.wheatpara3
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif; 
+	color:black;
+	text-align:justify;
+	position:relative;
+	top:-20px;
+}
+.wheatpara12
+{
+	font-size:20px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+	color:black;	
+}
+.fbtn1 /* button for fertilizer 1 */
+ {
+ 	position:relative;
+ 	left:15px;
+ 	top:-10px;
+ }
+ .fbtn4 /* button for fertilizer 4 */
+ {
+ 	margin-top:-12px;
+ 	position:relative;
+ 	left:15px;
+ }
+ .fcontent3 /* content for fertilizer 3 */
+ {
+ 	font-size:20px;
+ 	position:relative;
+ 	top:-15px;
+ }
+ .f3 /* for fertilizer3 heading and button */
+ {
+ 	position:relative;
+ 	top:-15px;
+ }
+ .f4 /* for fertilizer 4 heading */
+ {
+ 	position:relative;
+ 	top:10px;
+ }
+ .fertilizer_font
+ {
+ 	font-size:20px;
+ }
+ 
+ .fertilizer_image1
+ {
+ 	width:275px;
+ 	height:326px;
+ 	position:relative;
+ 	top:-9px;
+ }
+ .fertilizer_image2
+ {
+ 	width:270px;
+ 	height:330px;
+ }
+  .fertilizer_image3
+ {
+ 	width:270px;
+ 	height:363px;
+ }
+ .fertilizer_image4
+ {
+ 	width:270px;
+ 	height:300px;
+ }
+.ab1
+{
+	font-family:"Times New Roman", Times, serif;
+	color:black;
+	position:relative;
+	left:-30px;
+	text-align:justify;
+	
+}
+.soiltest_heading /*for testing services in soil test page*/
+{
+	text-decoration:underline;
+	font-family:Georgia, 'Times New Roman', Times, serif;"
+}
+.soiltest1 /* for soil test black background */
+{
+	border:solid black 2px;
+	background-color:black; 
+	height:690px; 
+	border-radius:5px;
+}
+.reg_btn /* for registration and soil test submit button*/
+{
+	position:relative;
+	left:250px;
+}
+.reg-gender
+{
+	color:black;
+	position:relative;
+	left:8px;
+}
+
+.req_field /* for denoting required field in forms */
+{
+	color:red;
+	font-size:17px;
+}
+
+.reg
+{
+	border:solid black 2px;
+	background-color:black; 
+	height:292px; 
+	border-radius:5px;
+}
+.modal-header1
+{
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	text-align:center;
+}
+.login1
+{
+	border:solid black 2px;
+	background-color:black;
+	height:322px; 
+	border-radius:5px;
+}
+.ab
+{
+	color:red;
+	text-decoration:underline;
+}
+ab:hover
+{
+	color:blue;
+}
+.contact_content33
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:20px;
+	color:black;
+}
+.contact_content32
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:18px;
+	text-align:center;
+	position:relative;
+	left:10px;
+	top:-5px;
+	color:black;
+}
+.contact_content31
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:20px;
+	position:relative;
+	left:70px;
+	color:black;
+}
+.contact_div1
+{
+	background-color:#FFC;
+	height:150px;
+	position:relative;
+	left:170px;
+	border-radius:5px;"
+}
+.contact_div2
+{
+	background-color:#FFC;
+	height:150px;
+	position:relative;
+	left:165px;
+	border-radius:5px;"
+}
+.contact_div3
+{
+	background-color:#FFC;
+	height:150px;
+	position:relative;
+	left:220px;
+	border-radius:5px;"
+}
+.contact_title1
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:22px;
+	color:black;
+	position:relative;
+	left:110px;
+}  
+.contact_title2
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:22px;
+	color:black;
+	position:relative;
+	left:105px;
+	top:-5px;
+}
+.contact_title3
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size:22px;
+	color:black;
+	position:relative;
+	left:100px;
+}
+.contact1
+{
+	height:380px;
+	background-color:#FFC;
+	margin-top:10px;
+}  
+.contact_btn
+{
+	font-size:18px;
+	position:relative;
+	left:390px;
+}
+.contactbtnh
+{
+	position:relative;
+	top:-10px;
+}
+.contact_info
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:white;
+	font-size:20px;
+}
+.footer1
+{
+	background-color:black;
+	color:white;
+	margin-top:-20px;opacity:0.9
+}
+.footer_title
+{
+	font-size:19px;
+	color:white;
+}
+.mission_content
+{
+	text-align:justify;
+	font-size:21px;
+	position:relative;
+	color:black;
+	font-family:'Times New Roman', Times, serif;
+	top:-23px;
+}
+.mission_title
+{
+	color:black;
+	font-family:'Times New Roman', Times, serif;
+	font-size:24px;
+	position:relative;
+	top:-23px;
+	text-align:justify;
+}
+.mission
+{
+	background-image:url(images/mission_image.png);
+	height:414px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:5px;
+}
+.btn1
+{
+	font-size:18px;
+}
+.three_image_title
+{
+	color:black;
+	font-size:22px;
+	font-family:'Times New Roman', Times, serif;
+}
+.welcome_text
+{
+	font-size:21px;
+	font-family:'Times New Roman', Times, serif;
+	text-align:justify;
+}
+.welcome
+{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 32px; 
+	font-weight:900; 
+	font-style:normal; 
+	text-align:center;
+}
+.dropdown1
+{
+	font-size:14px;
+}
+.logoimg
+{
+	position:relative;
+	top:-15px;
+	left:-15px;
+	height:50px;
+	width:180px;
+}
+.navbar1
+{
+	style="font-family:'Arial Black', Gadget, sans-serif;
+	position:relative;
+	top:3px;
+	color:white;
+}
+.copyright
+{
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	color:white;
+	background-color:black;
+	opacity:0.8
+}
+.copyright1
+{
+	position:relative;
+	left:-20px;
+}
+.copyright2 /* for registration copyright */
+{
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	color:white;
+	position:relative;
+	background-color:black;
+	opacity:0.8;
+	top:11px;
+}
+.copyrightl /* for login copyright */
+{
+	position:relative;
+	top:17px;
+}
+.p
+{
+	font-family:"Times New Roman", Times, serif;
+
+}
+.three_text
+{
+	font-size:19px;
+	color:black;
+	font-family:"Times New Roman", Times, serif;
+	position:relative;
+}
+	
+.footer
+{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:white;
+	font-size:20px;
+}
+.footer:link
+{
+	color:white;
+}
+.footer:hover
+{
+	color:grey;
+}
+.three_images
+{
+	height:260px;
+	width:324px;
+	border:groove;
+	border-color:black;
+	border-radius:5px;
+}
+.slider_images_text
+{
+	color:white;
+	font-size:22px;
+	font-family: 'Bree Serif', serif;
+}
+
+.abc /*backgroung image*/
+{
+	background-color:#FFC;
+}
+
+.link-1 /*menu bar */
+{
+  transition: 0.3s ease;
+  font-size: 14px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+</style>

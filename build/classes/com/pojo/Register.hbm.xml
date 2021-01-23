@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Apr, 2018 4:01:54 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.pojo.Register" table="register" catalog="eagriculture">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="100" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="100" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="100" not-null="true" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" not-null="true" />
+        </property>
+        <property name="gender" type="string">
+            <column name="gender" length="100" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" not-null="true" />
+        </property>
+        <property name="state" type="string">
+            <column name="state" length="100" not-null="true" />
+        </property>
+        <property name="city" type="string">
+            <column name="city" length="100" not-null="true" />
+        </property>
+        <property name="pincode" type="string">
+            <column name="pincode" length="100" not-null="true" />
+        </property>
+        <set name="soiltests" table="soiltest" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id" />
+            </key>
+            <one-to-many class="com.pojo.Soiltest" />
+        </set>
+        <set name="carts" table="cart" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id" />
+            </key>
+            <one-to-many class="com.pojo.Cart" />
+        </set>
+        <set name="demos" table="demo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id" />
+            </key>
+            <one-to-many class="com.pojo.Demo" />
+        </set>
+        <set name="purchases" table="purchase" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="id" />
+            </key>
+            <one-to-many class="com.pojo.Purchase" />
+        </set>
+    </class>
+</hibernate-mapping>
