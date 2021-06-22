@@ -32,9 +32,21 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![login-screenshot](images/login.png)
-![chat1-screenshot](images/chat_interface.png)
-![chat1-screenshot](images/chat_interface2.png)
+**NOTE - For detailed view of website and other details, kindly check the VertiFarm Report.**
+
+![login-screenshot](home1.JPG)
+![chat1-screenshot](home2.JPG)
+![chat1-screenshot](login.JPG)
+![chat1-screenshot](register.JPG)
+![chat1-screenshot](material.JPG)
+![chat1-screenshot](machine.JPG)
+![chat1-screenshot](cart.JPG)
+![chat1-screenshot](contact.JPG)
+![chat1-screenshot](profile.JPG)
+![chat1-screenshot](order.JPG)
+![chat1-screenshot](orderc.JPG)
+![chat1-screenshot](demo.JPG)
+![chat1-screenshot](admin.JPG)
 <br />
 <p align="justify"> Vertical farming is the practice of growing crops in vertically stacked layers. It often incorporates
 controlled environment agriculture, which aims to optimize plant growth. Vertical farming is clearly the 
