@@ -144,7 +144,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
 Himank Jain - [@itsme_himank09](https://instagram.com/itsme_himank09) - My Instagram <br />
 Himank Jain - [himank-jain](https://www.linkedin.com/in/himank-jain/) - My LinkedIn  <br />
 Project Link: [https://github.com/Himank-J/Eagriculture](https://github.com/Himank-J/Eagriculture)
@@ -158,4 +157,3 @@ Project Link: [https://github.com/Himank-J/Eagriculture](https://github.com/Hima
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/himank-jain/
 [product-screenshot]: images/search.png
-* [Contact](#contact)
